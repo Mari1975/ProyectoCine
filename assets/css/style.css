@@ -61,6 +61,11 @@ body .formulario{
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+.colorNav{
+/*   background: #240046; */
+  background: rgb(36,0,70);
+background: linear-gradient(180deg, rgba(36,0,70,1) 31%, rgba(90,24,154,1) 95%);
+}
 
 
 

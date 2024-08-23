@@ -95,8 +95,10 @@ $(document).ready(function(){
 
     $('.imagen').on('mouseenter', function() {
         $(this).css({
+
+            'width': '300px',
             'transition': 'transform 1.5s ease, z-index 0.5s ease',
-            'transform': 'scale(1.5)',
+            'transform': 'scale(1.1)',
             'position': 'relative',
             'z-index': '10'
         });
