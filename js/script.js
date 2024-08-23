@@ -124,3 +124,32 @@ function aplicarColorAleatorio() {
     // Aplicar el color al fondo del contenedor
     document.getElementById('sectionForm').style.background = colorHex;
 }
+
+//    SECCION MARITZA///////
+
+
+
+$(document).ready(function(){
+
+    let cartCount = 0;
+
+    $('.add-to-cart-btn').click(function(){
+        cartCount++;
+        $('#cart-count').text(cartCount);
+
+        $('#cart-notification').fadeIn().delay(1000).fadeOut();
+    });
+
+});
+
+// texto parpadeante//
+
+const textoParpadeante = document.getElementById('textoParpadeante');
+let opacity = 3;
+
+function parpadear() {
+    opacity = opacity === 1 ? 0 : 1;
+    textoParpadeante.style.opacity = opacity;
+}
+
+setInterval(parpadear, 500);
