@@ -14,17 +14,54 @@
 
 <body>
     <header>
-        <nav>
+<!--         <nav>
+            <img
+                            src="assets/img/icono.svg"
+                            alt="Logo"
+                            width="30"
+                            height="24"
+                            class="d-inline-block align-text-top"
+                        />
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca-de">Acerca de</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Registrate</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
+        </nav>bg-body-tertiary -->
+
+        <nav class="navbar navbar-expand-lg colorNav">
+            <div class="container-fluid">
+                <img
+                src="assets/img/LogoCine_Transparente.png"
+                alt="Logo"
+                width="84px"
+                height="84px"
+                class="d-inline-block align-text-top"
+            />
+                <a class="navbar-brand" style="color:white;" href="#">Cine Room 5</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="color:white;">
+                    <div class="navbar-nav ms-auto" >
+                        <a class="nav-link active" style="color:white;" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" style="color:white;" href="#">Tienda</a>
+                        <a class="nav-link" style="color:white;" href="#">Galeria</a>
+                        <a class="nav-link" style="color:white;" href="#">Registrate</a>
+                        <a class="nav-link" style="color:white;" href="#">Contacto</a>
+
+                    </div>
+                </div>
+            </div>
         </nav>
+
     </header>
 
 
-    <section id="sectionForm" style="background: brown;">
+<!--     <section id="sectionForm" style="background: brown;">
         <div class="container">
             <form class="formulario" id="form1">
                 <label style="color:white">Nombre: <input type="text" name="" id="inputNombre"> </label>
@@ -32,10 +69,10 @@
                 <button id="enviar" type="submit">Enviar</button>
             </form>
         </div>
-    </section>
+    </section> -->
 
     
-    <div class="imagenes">
+ <!--    <div class="imagenes">
 
             <img id="imageZoom" src="https://bit.ly/3SRXQ6Q" width="15%" alt="" class="imagen">
 
@@ -48,10 +85,157 @@
         <img id="imageZoom"
             src="https://m.media-amazon.com/images/M/MV5BNzRiMjg0MzUtNTQ1Mi00Y2Q5LWEwM2MtMzUwZDU5NmVjN2NkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
             width="15%" alt="" class="imagen">
+    </div> -->
+
+    <div class="container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cinemarkcl.modyocdn.com/uploads/4aac9685-067c-471f-816b-e218a1de3eab/original/full-bj-preventa.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cinemarkcl.modyocdn.com/uploads/57cff4af-1d0a-4b8f-9915-85508cbd42f6/original/full-ar.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cinemarkcl.modyocdn.com/uploads/9eca1eaa-29a0-49df-9b8e-ee3d1ddb700b/original/full-longlegs.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                
+                <div class="carousel-item">
+                    <img src="https://cinemarkcl.modyocdn.com/uploads/6b1a37af-d7f1-4ac7-a263-489bb6570f4b/original/jk_full_preventa.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <h2>Estrenos / Cartelera Semanal</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-25 imagen">
+                    <img src="https://cinemarkmedia.modyocdn.com/cl/300x400/98703.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <!--   <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p> -->
+                        <a href="#" class="btn btn-danger w-100">
+                            <img src="assets/img/cinema.svg"     
+                            width="30"
+                            height="24"
+                            class="d-inline-block align-text-top"  
+                            alt="imagen de cinta">
+                            
+                            Comprar Entradas</a>
+                    </div>
+
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Funciones: 15:30 / 17:30 / 21:00</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-25 imagen">
+                    <img src="https://cinemarkmedia.modyocdn.com/cl/300x400/99310.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+<!--                         <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn btn-danger w-100">  
+                            <img src="assets/img/cinema.svg"     
+                            width="30"
+                            height="24"
+                            class="d-inline-block align-text-top"  
+                            alt="imagen de cinta">
+                            Comprar Entradas</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-25 imagen">
+
+ <!--                    <img src="https://palomaynacho.com/wp-content/uploads/2023/11/Poster-pelicula-Intensamente-2-jpg.webp" class="card-img-top" alt="..."> -->
+                    <img src="https://cinemarkmedia.modyocdn.com/cl/300x400/98210.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <!--  <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This card has even longer content than the first to show that equal height action.</p> -->
+                        <a href="#" class="btn btn-danger w-100">
+                            <img src="assets/img/cinema.svg"     
+                            width="30"
+                            height="24"
+                            class="d-inline-block align-text-top"  
+                            alt="imagen de cinta">
+                            Comprar Entradas</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-25 imagen">
+                    <img src="https://cinemarkmedia.modyocdn.com/cl/300x400/98454.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+<!--                         <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This card has even longer content than the first to show that equal height action.</p> -->
+                        <a href="#" class="btn btn-danger w-100">
+                            
+                            <img src="assets/img/cinema.svg"     
+                            width="30"
+                            height="24"
+                            class="d-inline-block align-text-top"  
+                            alt="imagen de cinta">
+                            
+                            Comprar Entradas</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <footer>
+        <div class="container fondo_blanco mx-auto" style="border-radius: 10px;">
+            <p class="float-end ">
+              <!--  <a href="#">Back to top</a> -->
+            </p>
+            <div style="text-align: center;">
+              
+                  <a href=""><img src="assets/img/social/facebook-1-svgrepo-com.svg" alt="..." height="80" width="80"
+                      style="align-items: center; padding: 8px;"></a>
+
+                  <a href=""><img src="assets/img/social/instagram-1-svgrepo-com.svg" alt="..." height="80" width="80"
+                      style="align-items: center; padding: 8px;"></a>
+                  
+                <a href=""><img src="assets/img/social/linkedin-1-svgrepo-com.svg" alt="..." height="80" width="80"
+                      style="align-items: center; padding: 8px;"></a>
+
+              <p >Dynamos Systems 2024. Todos los derechos reservados ©</p>
+              <br>
+            </div>
+          </div>
+    </footer>
+
+    
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
