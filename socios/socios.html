@@ -103,8 +103,24 @@
         <div class="container">
             <h2 style="color:white; text-align:center;">Regístrate como Socio</h2>
             <form class="formulario" id="formSocio">
-                <label style="color:white">Nombre: <input type="text" id="nombreSocio"></label>
-                <label style="color:white">Email: <input type="email" id="emailSocio"></label>
+                <label style="color:white">Nombre: 
+                    <input type="text" id="nombreSocio" required>
+                </label>
+                <label style="color:white">Apellidos: 
+                    <input type="text" id="apellidosSocio" required>
+                </label>
+                <label style="color:white">Correo Electrónico: 
+                    <input type="email" id="emailSocio" required>
+                </label>
+                <label style="color:white">Confirmar Correo Electrónico: 
+                    <input type="email" id="confirmarEmailSocio" required>
+                </label>
+                <label style="color:white">Teléfono: 
+                    <input type="tel" id="fonoSocio" required>
+                </label>
+                <label style="color:white">Dirección: 
+                    <input type="text" id="direccionSocio" required>
+                </label>
                 <button id="registrar" type="submit">Registrarse</button>
             </form>
         </div>
