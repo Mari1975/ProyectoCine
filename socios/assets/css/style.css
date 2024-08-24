@@ -1,0 +1,139 @@
+body {
+    background-image: url('https://www.radioactiva.cl/wp-content/uploads/2023/09/Dia-del-Cine-768x432.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white; /* Para que el texto sea más legible sobre el fondo */
+}
+
+header {
+    background: #e5e5e5;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #415a77;
+    text-decoration: none;
+}
+
+.formulario {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado a flex-start para alinear a la izquierda */
+    gap: 20px; /* Aumentar el espacio entre los elementos */
+    width: 100%;
+    max-width: 400px; /* Limitar el ancho del formulario */
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.formulario input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+.formulario label {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.formulario button {
+    align-self: center; /* Centrar el botón */
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imagenes {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.8s ease;
+}
+.formulario button:hover {
+    background-color: #495057;
+}
+#imageZoom {
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.carousel-img-container {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo opaco */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.carousel-caption h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    margin: 0;
+    font-size: 16px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para mejor visibilidad */
+    border-radius: 50%; /* Hacer que los botones sean redondos */
+    width: 50px; /* Ajustar el tamaño */
+    height: 50px; /* Ajustar el tamaño */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para mejor visibilidad */
+    border-radius: 50%; /* Hacer que los botones sean redondos */
+    width: 50px; /* Ajustar el tamaño */
+    height: 50px; /* Ajustar el tamaño */
+}
